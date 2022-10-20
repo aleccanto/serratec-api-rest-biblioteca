@@ -1,4 +1,4 @@
-package br.com.serratec.helloworld.servico;
+package br.com.serratec.biblioteca.servico;
 
 import java.util.List;
 

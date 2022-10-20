@@ -1,4 +1,4 @@
-package br.com.serratec.helloworld.controlador;
+package br.com.serratec.biblioteca.controlador;
 
 import java.util.List;
 
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.serratec.helloworld.dtos.AutorDTO;
-import br.com.serratec.helloworld.servico.AutorServico;
+import br.com.serratec.biblioteca.dtos.AutorDTO;
+import br.com.serratec.biblioteca.servico.AutorServico;
 
 @RestController
 @RequestMapping("/autor")

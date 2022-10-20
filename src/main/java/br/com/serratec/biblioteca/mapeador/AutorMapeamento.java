@@ -1,10 +1,10 @@
-package br.com.serratec.helloworld.mapeador;
+package br.com.serratec.biblioteca.mapeador;
 
 import org.springframework.stereotype.Component;
 
-import br.com.serratec.helloworld.dtos.AutorDTO;
-import br.com.serratec.helloworld.entidades.Autor;
-import br.com.serratec.helloworld.entidades.Livro;
+import br.com.serratec.biblioteca.dtos.AutorDTO;
+import br.com.serratec.biblioteca.entidades.Autor;
+import br.com.serratec.biblioteca.entidades.Livro;
 
 @Component
 public class AutorMapeamento implements IMapeador<Autor, AutorDTO> {

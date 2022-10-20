@@ -1,4 +1,4 @@
-package br.com.serratec.helloworld.dtos;
+package br.com.serratec.biblioteca.dtos;
 
 import java.util.ArrayList;
 import java.util.List;

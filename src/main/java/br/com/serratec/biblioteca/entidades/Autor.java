@@ -1,4 +1,4 @@
-package br.com.serratec.helloworld.entidades;
+package br.com.serratec.biblioteca.entidades;
 
 import java.util.ArrayList;
 import java.util.List;

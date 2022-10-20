@@ -1,4 +1,4 @@
-package br.com.serratec.helloworld.repositorio;
+package br.com.serratec.biblioteca.repositorio;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import br.com.serratec.helloworld.entidades.Autor;
-import br.com.serratec.helloworld.entidades.Livro;
+import br.com.serratec.biblioteca.entidades.Autor;
+import br.com.serratec.biblioteca.entidades.Livro;
 
 @Repository
 public interface AutorRepositorio extends JpaRepository<Autor, Long> {

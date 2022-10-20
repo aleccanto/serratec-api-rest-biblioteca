@@ -1,4 +1,4 @@
-package br.com.serratec.helloworld.servico;
+package br.com.serratec.biblioteca.servico;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,12 +7,12 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.serratec.helloworld.dtos.AutorDTO;
-import br.com.serratec.helloworld.entidades.Autor;
-import br.com.serratec.helloworld.entidades.Livro;
-import br.com.serratec.helloworld.mapeador.IMapeador;
-import br.com.serratec.helloworld.repositorio.AutorRepositorio;
-import br.com.serratec.helloworld.repositorio.LivroRepositorio;
+import br.com.serratec.biblioteca.dtos.AutorDTO;
+import br.com.serratec.biblioteca.entidades.Autor;
+import br.com.serratec.biblioteca.entidades.Livro;
+import br.com.serratec.biblioteca.mapeador.IMapeador;
+import br.com.serratec.biblioteca.repositorio.AutorRepositorio;
+import br.com.serratec.biblioteca.repositorio.LivroRepositorio;
 
 @Service
 public class AutorServico {

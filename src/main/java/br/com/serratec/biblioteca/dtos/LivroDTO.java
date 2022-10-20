@@ -1,4 +1,4 @@
-package br.com.serratec.helloworld.dtos;
+package br.com.serratec.biblioteca.dtos;
 
 public class LivroDTO {
 

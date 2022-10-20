@@ -1,4 +1,4 @@
-package br.com.serratec.helloworld.mapeador;
+package br.com.serratec.biblioteca.mapeador;
 
 public interface IMapeador<E, DTO> {
 
